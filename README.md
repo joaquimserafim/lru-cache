@@ -5,7 +5,7 @@ A TypeScript implementation of a cache with LRU (Least Recently Used) eviction s
 ## Installation
 
 ```bash
-pnpm add git+ssh://git@github.com/joaquimserafim/lru-cache.git
+pnpm add @joaquimserafim/lru-cache
 ```
 
 ## Usage

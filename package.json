@@ -19,7 +19,6 @@
 	},
 	"keywords": [
 		"cache",
-		"ttl",
 		"lru",
 		"typescript"
 	],
