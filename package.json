@@ -1,7 +1,7 @@
 {
 	"name": "@joaquimserafim/lru-cache",
-	"version": "0.1.0",
-	"description": "A LRU cache implementation",
+	"version": "1.0.0",
+	"description": "A TypeScript LRU cache implementation",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
@@ -26,6 +26,10 @@
 	],
 	"author": "@joaquimserafim",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joaquimserafim/lru-cache.git"
+	},
 	"devDependencies": {
 		"@types/node": "^22.13.13",
 		"@vitest/coverage-v8": "3.0.9",

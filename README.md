@@ -18,6 +18,24 @@ import { LRUCache } from "@joaquimserafim/lru-cache";
 // - TTL (Time To Live) of 60000 milliseconds (60 seconds)
 const cache = new LRUCache<string, number>(1000, 60000);
 
-// Set a value in the cache
-cache.set("key", 123);
+// Set values in the cache
+cache.put("key", 123);
+
+// Get a value (throws if key doesn't exist)
+const value = cache.get("key"); // returns 123
+
+// Get a value safely (returns undefined if key doesn't exist)
+const safeValue = cache.getSafe("key"); // returns 123
+
+// Check if key exists
+const exists = cache.has("key"); // returns true
+
+// Get all keys in order of most recently used
+const keys = cache.keys(); // returns ["key"]
+
+// Get current cache size
+const size = cache.size(); // returns 1
+
+// Clear the cache
+cache.clear();
 ```
