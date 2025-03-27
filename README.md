@@ -15,8 +15,7 @@ import { LRUCache } from "@joaquimserafim/lru-cache";
 
 // Create a new cache instance with:
 // - maximum size of 1000 items
-// - TTL (Time To Live) of 60000 milliseconds (60 seconds)
-const cache = new LRUCache<string, number>(1000, 60000);
+const cache = new LRUCache<string, number>(1000);
 
 // Set values in the cache
 cache.put("key", 123);

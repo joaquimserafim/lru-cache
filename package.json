@@ -1,6 +1,6 @@
 {
 	"name": "@joaquimserafim/lru-cache",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A TypeScript LRU cache implementation",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
